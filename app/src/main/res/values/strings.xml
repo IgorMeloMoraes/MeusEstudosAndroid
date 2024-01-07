@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MeusEstudosAndroid</string>
+
+    <!-- OnClick-->
+    <string name="txt_app_name_on_click">Seja Bem-Vindo ao App Numero I</string>
+    <string name="txt_info_on_click">Para Comerçarmos bem, clique no botão abaixo para gerar nosso primeiro Hello World</string>
+    <string name="btn_click_on_click">Clique Aqui</string>
+    <string name="txt_resultado_on_click">E então assim surge o nosso primeiro HELLO WORLD!</string>
 </resources>
