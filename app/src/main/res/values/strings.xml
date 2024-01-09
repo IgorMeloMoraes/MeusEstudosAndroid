@@ -6,4 +6,11 @@
     <string name="txt_info_on_click">Para Comerçarmos bem, clique no botão abaixo para gerar nosso primeiro Hello World</string>
     <string name="btn_click_on_click">Clique Aqui</string>
     <string name="txt_resultado_on_click">E então assim surge o nosso primeiro HELLO WORLD!</string>
+
+    <!-- OnClickListener    -->
+    <string name="txt_app_name_on_click_listener">OnClickListener Metod</string>
+    <string name="txt_click_after_on_click_listener">Antes do Botão ser clicado</string>
+    <string name="txt_click_before_on_click_listener">Depois do Botão ser clicado</string>
+    <string name="btn_click_on_click_listener">Clique Aqui</string>
+    <string name="txt_new_title_on_click_listener">Novo Metodo de Click</string>
 </resources>
