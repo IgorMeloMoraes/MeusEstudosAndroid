@@ -10,4 +10,6 @@
 ## Estudos
 
 * WebView
+* OnClick
+* Icon
 
