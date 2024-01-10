@@ -25,4 +25,9 @@
     <!-- Intent Básica Tuto Easy -->
     <string name="txt_intent_basica">Bem Vindo a Tela Inicial</string>
     <string name="btn_intent_basica">Proxima Tela</string>
+
+    <!-- Image Button -->
+    <string name="txt_contador_img_btn">Contador = 0 </string>
+    <string name="txt_soma_img_btn">Somar</string>
+    <string name="txt_subtrair_img_btn">Subtrair</string>
 </resources>

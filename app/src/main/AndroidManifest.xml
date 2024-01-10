@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".ImagemNoBotaoActivity"
+            android:exported="false" />
+        <activity
             android:name=".IntentBasicaActivity"
             android:exported="false" />
         <activity
