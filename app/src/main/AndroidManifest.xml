@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".SplashBasicaEasyActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashBasicaActivity"
             android:exported="false" />
         <activity
