@@ -33,4 +33,7 @@
 
     <!-- Audio-->
     <string name="btn_play">Play</string>
+
+    <!-- Toast-->
+    <string name="btn_toast">Gerar Pequena Mensagem</string>
 </resources>
