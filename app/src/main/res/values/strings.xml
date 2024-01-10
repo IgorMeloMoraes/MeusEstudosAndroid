@@ -7,7 +7,7 @@
     <string name="btn_click_on_click">Clique Aqui</string>
     <string name="txt_resultado_on_click">E então assim surge o nosso primeiro HELLO WORLD!</string>
 
-    <!-- OnClickListener    -->
+    <!-- OnClickListener-->
     <string name="txt_app_name_on_click_listener">OnClickListener Metod</string>
     <string name="txt_click_after_on_click_listener">Antes do Botão ser clicado</string>
     <string name="txt_click_before_on_click_listener">Depois do Botão ser clicado</string>
@@ -16,6 +16,11 @@
 
     <!-- SplashScreen Básica -->
     <string name="txt_description_logo_splash">Iguana em cima de uma pedra com o nome estudios iguana</string>
+
+    <!-- Background Color-->
+    <string name="txt_bg_color_vermelho">Vermelho</string>
+    <string name="txt_bg_color_verde">Verde</string>
+    <string name="txt_bg_color_roxo">Roxo</string>
 
 
 </resources>

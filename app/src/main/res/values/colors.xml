@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg_verde">#4CAF50</color>
     <color name="vinho">#530D2B</color>
+    <color name="bg_roxo">#9824F3</color>
+    <color name="bg_verde_escuro">#16A085</color>
+    <color name="bg_vermelho_indian">#CD5C5C</color>
 </resources>
