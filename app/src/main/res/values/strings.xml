@@ -13,4 +13,9 @@
     <string name="txt_click_before_on_click_listener">Depois do Botão ser clicado</string>
     <string name="btn_click_on_click_listener">Clique Aqui</string>
     <string name="txt_new_title_on_click_listener">Novo Metodo de Click</string>
+
+    <!-- SplashScreen Básica -->
+    <string name="txt_description_logo_splash">Iguana em cima de uma pedra com o nome estudios iguana</string>
+
+
 </resources>
