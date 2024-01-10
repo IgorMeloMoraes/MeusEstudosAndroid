@@ -22,5 +22,7 @@
     <string name="txt_bg_color_verde">Verde</string>
     <string name="txt_bg_color_roxo">Roxo</string>
 
-
+    <!-- Intent Básica Tuto Easy -->
+    <string name="txt_intent_basica">Bem Vindo a Tela Inicial</string>
+    <string name="btn_intent_basica">Proxima Tela</string>
 </resources>
