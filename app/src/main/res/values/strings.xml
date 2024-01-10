@@ -30,4 +30,7 @@
     <string name="txt_contador_img_btn">Contador = 0 </string>
     <string name="txt_soma_img_btn">Somar</string>
     <string name="txt_subtrair_img_btn">Subtrair</string>
+
+    <!-- Audio-->
+    <string name="btn_play">Play</string>
 </resources>
