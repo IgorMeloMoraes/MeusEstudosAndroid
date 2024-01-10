@@ -14,4 +14,9 @@
 * Icon
 * OnClickListener
 * SplashScreen Básica
+* Audio
+* FullScreen
+* ImageButton
+* Intent
+* Toast
 
