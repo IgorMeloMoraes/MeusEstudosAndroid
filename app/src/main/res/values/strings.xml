@@ -36,4 +36,9 @@
 
     <!-- Toast-->
     <string name="btn_toast">Gerar Pequena Mensagem</string>
+
+    <!-- Love Calculator - Calculadora do Amor-->
+    <string name="edt_homem">Homem</string>
+    <string name="edt_mulher">Mulher</string>
+    <string name="btn_calcular">Calcular</string>
 </resources>
