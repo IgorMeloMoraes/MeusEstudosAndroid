@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".EasyTuto_16_2"
+            android:exported="false" />
+        <activity
+            android:name=".EasyTuto_16"
+            android:exported="false" />
+        <activity
             android:name=".CalculadoraDoAmor_15"
             android:exported="false" />
         <activity

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EasyTuto_16_2">
+    
+    <EditText
+        android:id="@+id/edt_numero_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 1"/>
+
+    <EditText
+        android:id="@+id/edt_numero_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 2"/>
+
+    <Button
+        android:id="@+id/btn_add_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+
+    <Button
+        android:id="@+id/btn_sub_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUB"/>
+
+    <Button
+        android:id="@+id/btn_mult_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULT"/>
+
+    <Button
+        android:id="@+id/btn_div_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIV"/>
+
+    <TextView
+        android:id="@+id/txt_resultado_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:textAlignment="center"/>
+
+</LinearLayout>
