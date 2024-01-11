@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".WebViewActivity_04"
+            android:exported="false" />
+        <activity
             android:name=".ToastActivity_08"
             android:exported="false" />
         <activity
@@ -49,7 +52,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".WebViewActivity_04"
+            android:name=".ListViewActivity_13"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
