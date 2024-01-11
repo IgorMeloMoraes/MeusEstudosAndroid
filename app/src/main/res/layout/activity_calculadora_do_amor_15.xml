@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraDoAmor_15">
+
+    <EditText
+        android:id="@+id/edt_homem_love_calculator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:ems="50"
+        android:hint="Homem"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edt_mulher_love_calculator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_homem_love_calculator"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:ems="50"
+        android:hint="Mulher"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_calcular_love_calculator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_mulher_love_calculator"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:onClick="calculoDoAmor"
+        android:text="Calcular" />
+
+    <ImageView
+        android:id="@+id/img_coracao_love_calculator"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/btn_calcular_love_calculator"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/coracao" />
+
+    <TextView
+        android:id="@+id/txt_porcentagem_love_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/img_coracao_love_calculator"
+        android:layout_alignBottom="@+id/img_coracao_love_calculator"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="158dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
