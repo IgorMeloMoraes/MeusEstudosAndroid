@@ -13,43 +13,43 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".ToastActivity"
+            android:name=".ToastActivity_08"
             android:exported="false" />
         <activity
-            android:name=".AudioActivity"
+            android:name=".AudioActivity_12"
             android:exported="false" />
         <activity
-            android:name=".FullScreenActivity"
+            android:name=".FullScreenActivity_09"
             android:exported="false" />
         <activity
-            android:name=".ImagemNoBotaoActivity"
+            android:name=".ImagemNoBotaoActivity_11"
             android:exported="false" />
         <activity
-            android:name=".IntentBasicaActivity"
+            android:name=".IntentBasicaActivity_07"
             android:exported="false" />
         <activity
-            android:name=".BackgroundColorActivity"
+            android:name=".BackgroundColorActivity_10"
             android:exported="false" />
         <activity
-            android:name=".SplashBasicaEasyActivity"
+            android:name=".SplashBasicaEasyActivity_06"
             android:exported="false" />
         <activity
-            android:name=".SplashBasicaActivity"
+            android:name=".SplashBasicaActivity_05"
             android:exported="false" />
         <activity
-            android:name=".OnClickListenerActivity"
+            android:name=".OnClickListenerActivity_02"
             android:exported="false" />
         <activity
-            android:name=".AlterandoIconActivity"
+            android:name=".AlterandoIconActivity_03"
             android:exported="false" />
         <activity
-            android:name=".OnClickActivity"
+            android:name=".OnClickActivity_01"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".EstudosWebViewActivity"
+            android:name=".WebViewActivity_04"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

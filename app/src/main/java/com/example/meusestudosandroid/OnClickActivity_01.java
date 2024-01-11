@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class OnClickActivity extends AppCompatActivity {
+public class OnClickActivity_01 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_on_click);
+        setContentView(R.layout.activity_on_click_01);
     }
 
     // Metodo de click utilizando o OnClick (Metodo já defassado, mas ainda util)
