@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 // Implementar o OnClick para manter as classes de onClickLister dentro de uma classe separada
 public class EasyTuto_16_2 extends AppCompatActivity implements View.OnClickListener {
@@ -139,10 +140,16 @@ public class EasyTuto_16_2 extends AppCompatActivity implements View.OnClickList
        */
 
 
+        // Validação das variaveis com try/catch
+        try {
+            // Variaveis
+            num1 = Integer.parseInt(edtNum1.getText().toString());
+            num2 = Integer.parseInt(edtNum2.getText().toString());
+        }
+        catch (Exception e){
+            Toast.makeText(this, "POR FAVOR INSIRA APENAS NUMEROS", Toast.LENGTH_SHORT).show();
+        }
 
-        // Variaveis
-        num1 = Integer.parseInt(edtNum1.getText().toString());
-        num2 = Integer.parseInt(edtNum2.getText().toString());
 
         // Condição de Casos - Ele pega a view de acordo com o id do click
         int id = view.getId();// Caso o id X for clicado, fazer tal ação e break (parar)
