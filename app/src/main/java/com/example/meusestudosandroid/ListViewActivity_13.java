@@ -2,6 +2,7 @@ package com.example.meusestudosandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,7 +33,26 @@ public class ListViewActivity_13 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 // Tost para informar qual item esta sendo clicado na tela do usuario passando a posição [int I - Position]
-                Toast.makeText(ListViewActivity_13.this, itens[i], Toast.LENGTH_SHORT).show();
+               // Toast.makeText(ListViewActivity_13.this, itens[i], Toast.LENGTH_SHORT).show();
+
+                // Para abrir outros menus a partir da lista criada, clidando no menu X, abre a activity X, clicando na Y, abre a activity Y
+                // Crie uma classe e defina ela como nula, para depois ela receber os menus
+                Class MeusMenusAcesso = null;
+
+                // Crie um try catch para verificação, caso o menu esteja indiponivel, o app retorna uma msg
+                try {
+                    // Passar a variavel de classe que criamos, recebendo uma Class, e a notação forName que pega o nome da classe ou nesse caso o pacote que contem as classes
+                    // Depois passar nossa array de menus passando o ponto I, que é a possição do menui que acessa corretamenta o pacte e a classe que pertecene aquele clique
+                    MeusMenusAcesso = Class.forName("com.example.meusestudosandroid." + itens[i]);
+                }
+                catch (ClassNotFoundException e){
+                    e.printStackTrace();
+                }
+
+                Intent intent = new Intent(ListViewActivity_13.this, MeusMenusAcesso);
+                startActivity(intent);
+
+
             }
         });
     }
