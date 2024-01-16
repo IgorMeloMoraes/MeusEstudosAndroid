@@ -2,6 +2,8 @@ package com.example.meusestudosandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +17,10 @@ public class RegistroSreen_21 extends AppCompatActivity {
     EditText edtNome, edtTel, edtEmail, edtSenha, edtSenhaRetry;
     Button btnEnviar;
 
+    // Define o Tipo de Armazenamento dos dados - Se Interno ou Banco de Dados
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editorPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +33,10 @@ public class RegistroSreen_21 extends AppCompatActivity {
         edtSenha = findViewById(R.id.edt_senha);
         edtSenhaRetry = findViewById(R.id.edt_senha_retry);
         btnEnviar = findViewById(R.id.btn_enviar);
+
+        // Pega nossas preferencias de armazenamento e define um nome e um modo de salvamento para ela
+        sharedPreferences = getSharedPreferences("Dados Usuario", Context.MODE_PRIVATE);
+        editorPreferences = sharedPreferences.edit();
 
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +86,14 @@ public class RegistroSreen_21 extends AppCompatActivity {
                 
                 // Se todos os campos estiverem ok, é exibido uma msg para o usuario
                 Toast.makeText(RegistroSreen_21.this, "Criação de Registro Realizado com Sucesso", Toast.LENGTH_SHORT).show();
+
+                // Salvando os Dados com PutExtra - Passamos uma chave e a nossa varaivel
+                // Esses dados vao ficar salvos no cache do prorpio telefone do usurio
+                editorPreferences.putString("KeyNome", nome);
+                editorPreferences.putInt("KeyTelefone", telefone);
+                editorPreferences.putString("KeyEmail", email);
+                editorPreferences.putString("KeySenha", senhaRetry);
+                editorPreferences.apply();
             }
         });
     }
