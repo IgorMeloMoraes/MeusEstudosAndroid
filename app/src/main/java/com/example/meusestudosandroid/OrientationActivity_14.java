@@ -18,5 +18,12 @@ public class OrientationActivity_14 extends AppCompatActivity {
         // Depois passamos a ActivityInfo + a Flaf de orientação que queremos
         // ActivityInfo - Informações Sobre uma Activity
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        // Passar a orientação de forma fixa para o APP completo
+        // Podemos passar essa informação de orientação diretamente no MANIFEST e na ACTIVITY Escolhida
+        // Vamos passar o ScreenOrientation + o tipo de orientação
+        // Portrait, a tela fica fixa sem rotacionar, Landscape ele gira
+
+
     }
 }
