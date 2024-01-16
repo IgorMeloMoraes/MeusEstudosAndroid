@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_verde"
+    tools:context=".BancoDados_23">
+
+    <EditText
+        android:id="@+id/edt_id_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"/>
+
+    <EditText
+        android:id="@+id/edt_nome_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"/>
+
+    <EditText
+        android:id="@+id/edt_tel_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone"/>
+
+    <Button
+        android:id="@+id/btn_insert_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT - Inserir Dados"/>
+
+    <Button
+        android:id="@+id/btn_update_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE - Atualizar Dados"/>
+
+    <Button
+        android:id="@+id/btn_delete_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE - Deletar Dados"/>
+
+    <Button
+        android:id="@+id/btn_show_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW - Show Dados"/>
+
+    <TextView
+        android:id="@+id/txt_screen_dados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os Dados seram inseridos aqui"/>
+
+</LinearLayout>

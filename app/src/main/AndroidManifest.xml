@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MeusEstudosAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".BancoDados_23"
+            android:exported="false" />
+        <activity
             android:name=".LoginScreen_22"
             android:exported="false" />
         <activity
@@ -83,8 +86,8 @@
             android:exported="false" />
         <activity
             android:name=".ListViewActivity_13"
-            android:screenOrientation="portrait"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
