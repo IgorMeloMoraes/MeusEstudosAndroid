@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen_22"
+    android:orientation="vertical"
+    android:background="@color/bg_verde_escuro">
+
+    <EditText
+        android:id="@+id/edt_nome_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"/>
+
+    <EditText
+        android:id="@+id/edt_senha_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha"/>
+
+    <Button
+        android:id="@+id/btn_logar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Logar"/>
+
+    <TextView
+        android:id="@+id/txt_tel_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone Aqui"/>
+
+    <TextView
+        android:id="@+id/txt_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Aqui"/>
+
+</LinearLayout>
